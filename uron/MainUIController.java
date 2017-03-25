@@ -190,21 +190,12 @@ public void start(){
         String showfilename;
         String show;
         
-        
-            
-               
-            
-    
            showfilename =  file.toString().replaceFirst(PathManagement.projectfolder,"");
-           System.out.println(showfilename);
-           
-           
-//           showfilename2 =  showfilename.replaceAll("","");
-           
-           
+
             show= showfilename.replaceFirst(".URON","");
             
             String substring = show.substring(1);
+        
                     if (!".DS_Store".equals(substring)) {
                       
                          
