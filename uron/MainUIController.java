@@ -178,7 +178,7 @@ public class MainUIController implements Initializable{
   
 
 
-public void main(){
+public void start(){
       PathKUGIRI.OShantei();
         System.out.println(PathKUGIRI.usepath);
                        String path = PathManagement.projectfolder;
@@ -232,7 +232,7 @@ public void main(){
 }
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        main();
+       start();
             
  
    }
