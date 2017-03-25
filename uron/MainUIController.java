@@ -209,15 +209,7 @@ public void start(){
                       
                          
             selectproject.getItems().addAll(substring);
-                
-
-                       
-           
      
-                        
-
-                        
-        
 }
   
               
